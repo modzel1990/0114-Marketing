@@ -1,0 +1,217 @@
+body {
+  background-color: rgb(42,42,42) !important;
+}
+.pad30{
+  padding: 30px;
+}
+.btnsize {
+  font-size: 30px;
+}
+.imghead {
+  display:block;
+  margin:0 auto;
+  width:100%;
+  height:auto;
+}
+.articlesection{
+  padding: 20px;
+}
+.testimonials {
+  padding: 20px;
+  color: black;
+  text-align: center;
+  background: linear-gradient( rgb(243, 243, 243) 90%,rgb(42,42,42) 100%) !important;
+}
+
+.sectback {
+  background: linear-gradient(rgb(42,42,42) 0.1%, rgb(243, 243, 243) 3%, rgb(243, 243, 243) 95%) !important;
+}
+
+.centerme {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.articletext {
+  font-size: 22px;
+}
+
+.description {
+  font-size: 22px;
+}
+
+.vidcontainer {
+  padding: 100px;
+  padding-bottom: 0px;
+}
+/* Separator */
+hr.separator {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double white;
+  color: white;
+  text-align: center;
+  width: 80%;
+}
+hr.separator:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: rgb(42,42,42);
+}
+
+hr.separatordark {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double black;
+  color: black;
+  text-align: center;
+  width: 80%;
+}
+hr.separatordark:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: rgb(243, 243, 243);
+}
+
+/* End Separator */
+
+/* Event Count Down */
+.eventcd {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  background-color: rgb(42,42,42);
+  color: white;
+  text-align: center;
+}
+
+.eventcd ul {
+  display: block;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.eventcd ul li{
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  font-size: 22px;
+  vertical-align: middle;
+}
+
+.eventimg {
+  width: 200px;
+  height: 200px;
+}
+
+.clock {
+  width: 600px;
+  height: auto;
+  color: white;
+  font-size: 32px;
+}
+
+.countdstyle{
+  display: inline-block;
+  font-size: 32px;
+  color: black !important;
+  padding: 10px;
+  min-width: 100px;
+}
+
+.countdnumbers {
+  border: 5px solid #17a2b8;
+  background-color: lightblue;
+  border-radius: 50%;
+  width: 120px;
+  padding: 15px;
+}
+
+.state {
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+/* End Event Countdown */
+
+@media only screen and (max-width: 600px) {
+  /* Event Count Down */
+.eventcd {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  background-color: rgb(42,42,42);
+  color: white;
+  text-align: center;
+}
+
+.eventcd ul {
+  display: block;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.eventcd ul li{
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.eventimg {
+  width: 100px;
+  height: 100px;
+}
+
+.clock {
+  width: auto;
+  height: auto;
+  color: white;
+  font-size: 26px;
+}
+
+.countdstyle{
+  display: inline-block;
+  font-size: 26px;
+  color: black !important;
+  padding: 15px;
+  min-width: 100px;
+}
+
+.countdnumbers {
+  border: 5px solid #17a2b8;
+  background-color: lightblue;
+  border-radius: 50%;
+  width: 120px;
+  padding: 15px;
+}
+
+.state {
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+}
+
+/* End Event Countdown */
+
+.vidcontainer {
+  padding: 30px;
+  padding-bottom: 0px;
+}
+
+}

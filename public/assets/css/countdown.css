@@ -1,0 +1,60 @@
+/* Event Count Down */
+.eventcd {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgb(42,42,42);
+    color: white;
+    text-align: center;
+  }
+  
+  .eventcd ul {
+    display: block;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 10px;
+  }
+  
+  .eventcd ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+    vertical-align: middle;
+  }
+  
+  .eventimg {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .clock {
+    width: 600px;
+    height: auto;
+    color: white;
+    font-size: 32px;
+  }
+  
+  .countdstyle{
+    display: inline-block;
+    font-size: 32px;
+    color: black !important;
+    padding: 10px;
+    min-width: 100px;
+  }
+  
+  .countdnumbers {
+    border: 5px solid #17a2b8;
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 120px;
+    padding: 15px;
+  }
+  
+  .state {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* End Event Countdown */
